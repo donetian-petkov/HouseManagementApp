@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "OGS1uBJZ2T/ngjVDnuoV937FnosfCmy+yuhIFm8ZCGWInoceFdTYDbNz+qIuGb0nRzclP406bQqi/sCQMH149A==",
-  "success": false,
+  "dgSpecHash": "K7RDBMjAKPMT4pWBwkwTDPmAVJkPumCW2QhhPc2BUjvbfScs1blCuwSWjapthF/saCEKSeiquTAELlPbXmMMOw==",
+  "success": true,
   "projectFilePath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
   "expectedPackageFiles": [
     "/Users/donetianpetkov/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
@@ -47,15 +47,5 @@
     "/Users/donetianpetkov/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.AspNetCore.Identity.EntityFrameworkCore from 6.0.11 to 6.0.10. Reference the package directly from the project to select a different version. \n HouseManagementApp -> HouseManagementApp.Core -> HouseManagementApp.Infrastructure -> Microsoft.AspNetCore.Identity.EntityFrameworkCore (>= 6.0.11) \n HouseManagementApp -> Microsoft.AspNetCore.Identity.EntityFrameworkCore (>= 6.0.10)",
-      "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

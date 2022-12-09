@@ -26,4 +26,8 @@
       <ProjectReference Include="..\HouseManagementApp.Core\HouseManagementApp.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Extensions" />
+    </ItemGroup>
+
 </Project>
