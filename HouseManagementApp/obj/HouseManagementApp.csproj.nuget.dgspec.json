@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {}
+  },
+  "projects": {
+    "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
+        "projectName": "HouseManagementApp",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

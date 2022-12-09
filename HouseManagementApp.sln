@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseManagementApp", "HouseManagementApp\HouseManagementApp.csproj", "{B2C05F02-A735-4E9B-A9C4-988EECCDA7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C05F02-A735-4E9B-A9C4-988EECCDA7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C05F02-A735-4E9B-A9C4-988EECCDA7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C05F02-A735-4E9B-A9C4-988EECCDA7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C05F02-A735-4E9B-A9C4-988EECCDA7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
