@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace HouseManagementApp.Data;
+namespace HouseManagementApp.Infrastructure.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {

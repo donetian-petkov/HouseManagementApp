@@ -1,17 +1,74 @@
 {
   "format": 1,
   "restore": {
-    "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {}
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {}
   },
   "projects": {
-    "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/HouseManagementApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
-        "projectName": "HouseManagementApp",
-        "projectPath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/HouseManagementApp.Core.csproj",
+        "projectName": "HouseManagementApp.Core",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/HouseManagementApp.Core.csproj",
         "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
-        "outputPath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseManagementApp/HouseManagementApp/obj/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/HouseManagementApp.Infrastructure.csproj": {
+                "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/HouseManagementApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/HouseManagementApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/HouseManagementApp.Infrastructure.csproj",
+        "projectName": "HouseManagementApp.Infrastructure",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/HouseManagementApp.Infrastructure.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
@@ -38,6 +95,81 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
+        "projectName": "HouseManagementApp",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/HouseManagementApp.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/HouseManagementApp.Core.csproj": {
+                "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/HouseManagementApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -50,6 +182,14 @@
               "target": "Package",
               "version": "[6.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -57,6 +197,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
