@@ -1,0 +1,15 @@
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/HouseManagementApp.Core.deps.json
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/HouseManagementApp.Core.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/HouseManagementApp.Core.pdb
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/HouseManagementApp.Infrastructure.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/HouseManagementApp.Infrastructure.pdb
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.csproj.AssemblyReference.cache
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.AssemblyInfoInputs.cache
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.AssemblyInfo.cs
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.csproj.CoreCompileInputs.cache
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.csproj.CopyComplete
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.pdb
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/ref/HouseManagementApp.Core.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/ref/HouseManagementApp.Core.dll
