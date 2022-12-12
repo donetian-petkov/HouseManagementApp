@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HouseManagementApp.Core.Models
+namespace HouseManagementApp.Core.Models.Administration
 {
     public class LoginViewModel
     {

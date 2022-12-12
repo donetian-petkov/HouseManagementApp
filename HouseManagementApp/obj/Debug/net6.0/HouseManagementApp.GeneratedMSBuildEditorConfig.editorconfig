@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/Areas/Administration/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/Areas/Administration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
