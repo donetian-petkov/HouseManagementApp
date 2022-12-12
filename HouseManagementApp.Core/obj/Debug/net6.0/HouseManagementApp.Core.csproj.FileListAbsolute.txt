@@ -12,4 +12,4 @@
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/HouseManagementApp.Core.pdb
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/ref/HouseManagementApp.Core.dll
-/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/bin/Debug/net6.0/ref/HouseManagementApp.Core.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Core/obj/Debug/net6.0/refint/HouseManagementApp.Core.dll

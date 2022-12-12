@@ -9,4 +9,4 @@
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/obj/Debug/net6.0/HouseManagementApp.Infrastructure.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/obj/Debug/net6.0/HouseManagementApp.Infrastructure.pdb
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/obj/Debug/net6.0/ref/HouseManagementApp.Infrastructure.dll
-/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/bin/Debug/net6.0/ref/HouseManagementApp.Infrastructure.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp.Infrastructure/obj/Debug/net6.0/refint/HouseManagementApp.Infrastructure.dll

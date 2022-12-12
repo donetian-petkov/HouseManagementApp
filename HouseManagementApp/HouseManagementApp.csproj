@@ -19,6 +19,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.11" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.10" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     </ItemGroup>
 
@@ -27,6 +28,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Areas\Administration\Controllers" />
+      <Folder Include="Areas\Administration\Data" />
+      <Folder Include="Areas\Administration\Models" />
       <Folder Include="Extensions" />
     </ItemGroup>
 
