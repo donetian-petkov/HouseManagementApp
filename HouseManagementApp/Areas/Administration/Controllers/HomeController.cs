@@ -11,7 +11,6 @@ namespace HouseManagementApp.Areas.Administration.Controllers
     {
         public IActionResult Index()
         {
-            
             return View();
         }
     }
