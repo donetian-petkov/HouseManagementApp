@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Administrator\Source\Repos\HouseManagementApp\HouseManagementApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Administrator/Source/Repos/HouseManagementApp/HouseManagementApp/Areas/Administration/Views/Account/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQWNjb3VudFxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Source/Repos/HouseManagementApp/HouseManagementApp/Areas/Administration/Views/Account/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

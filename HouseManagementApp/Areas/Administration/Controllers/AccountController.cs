@@ -37,6 +37,11 @@ namespace HouseManagementApp.Areas.Administration.Controllers
         [Route("/admin/createRole")]
         public async Task<IActionResult> CreateRole(CreateRoleViewModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
             var result = await roleManager.CreateAsync(new IdentityRole(model.RoleName));
 
             if (result.Succeeded)
@@ -54,6 +59,60 @@ namespace HouseManagementApp.Areas.Administration.Controllers
 
         }
 
+
+        [HttpGet]
+        [Route("/admin/assignRole")]
+        public IActionResult AssignRole()
+        {
+
+            var users = userManager.Users.ToList();
+
+            var roles = roleManager.Roles.ToList();
+
+            var model = new AssignRoleViewModel()
+            {
+                Users = users,
+                Roles = roles
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [Route("/admin/assignRole")]
+        public async Task<IActionResult> AssignRole(IdentityUser user, IdentityRole role)
+        {
+
+
+            if (user == null || role == null)
+            {
+                TempData[MessageConstant.ErrorMessage] = "Either the user or the role does not exist!";
+
+                RedirectToAction("AssignRole", "Account", new { area = "Administration" });
+
+            }
+
+
+            try
+            {
+                var result = await userManager.AddToRoleAsync(user, role.ToString());
+
+                if (result.Succeeded)
+                {
+                    TempData[MessageConstant.SuccessMessage] = "You assigned the role to the user successfully!";
+
+                }
+
+            } catch (Exception ex)
+            {
+                TempData[MessageConstant.ErrorMessage] = "Could not assign the role to the user! " + ex;
+
+            }
+
+
+            return RedirectToAction("Index", "Home", new { area = "Administration" });
+
+        }
 
     }
 }
