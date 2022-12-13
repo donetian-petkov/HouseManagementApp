@@ -1,60 +1,56 @@
 @model RegisterViewModel
 
-<section class="vh-100 bg-image">
-  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-    <div class="container h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-          <div class="card" style="border-radius: 15px;">
-            <div class="card-body p-5">
-              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
 
-              <form method="post">
+                        <form method="post" class="mb-md-5 mt-md-4 pb-5">
 
-                <div class="form-outline mb-4">
-                  <input asp-for="@Model.UserName" type="text"  id="form3Example1cg" class="form-control form-control-lg" />
-                  <label asp-for="@Model.UserName" class="form-label" >Your Name</label>
-                  <span asp-validation-for="UserName" class="text-danger"></span>
+                            <h2 class="fw-bold mb-2 text-uppercase">Register</h2>
+                            <p class="text-white-50 mb-5">Create an account</p>
+
+                            <div class="form-outline form-white mb-4">
+                                <input asp-for="@Model.UserName" type="text" id="typeEmailX" class="form-control form-control-lg"/>
+                                <label asp-for="@Model.UserName"class="form-label">Username</label>
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-outline form-white mb-4">
+                                <input asp-for="@Model.Email" type="email" id="typeEmailX" class="form-control form-control-lg"/>
+                                <label asp-for="@Model.Email"class="form-label">Email</label>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-outline form-white mb-4">
+                                <input asp-for="@Model.Password" type="password" id="typePasswordX" class="form-control form-control-lg"/>
+                                <label asp-for="@Model.Password" class="form-label">Password</label>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-outline form-white mb-4">
+                                <input asp-for="@Model.ConfirmPassword" type="password" id="typePasswordX" class="form-control form-control-lg"/>
+                                <label asp-for="@Model.ConfirmPassword" class="form-label">Password</label>
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+
+                            <button class="btn btn-outline-light btn-lg px-5" type="submit">Register</button>
+
+                        </form>
+
+                        <p class="text-center text-muted mt-5 mb-0">
+                            Have already an account?
+                            <a asp-controller="User" asp-action="Login"
+                               class="fw-bold text-body">
+                                <u>Login here</u>
+                            </a>
+                        </p>
+
+                    </div>
                 </div>
-
-                <div class="form-outline mb-4">
-                  <input asp-for="@Model.Email" type="email" id="form3Example3cg" class="form-control form-control-lg" />
-                  <label asp-for="@Model.Email" class="form-label" for="form3Example3cg">Your Email</label>
-                  <span asp-validation-for="Email" class="text-danger"></span>
-
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input asp-for="@Model.Password" type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label asp-for="@Model.Password" for="form3Example4cg">Password</label>
-                  <span asp-validation-for="Password" class="text-danger"></span>
-
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input asp-for="@Model.ConfirmPassword" type="password" id="form3Example4cdg" class="form-control form-control-lg" />
-                  <label asp-for="@Model.ConfirmPassword" class="form-label" for="form3Example4cdg">Repeat your password</label>
-                  <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                  <button type="button"
-                          class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
-                </div>
-
-                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a asp-controller="User" asp-action="Login"
-                                                                                        class="fw-bold text-body"><u>Login here</u></a></p>
-
-              </form>
-
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
-
-@section Scripts {
-  <partial name="_ValidationScriptsPartial"/>
-}
