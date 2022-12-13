@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace HouseManagementApp.Areas.Administration.Controllers;
 
 [Area("Administration")]
-[Authorize]
 public class UserController : Controller
 {
     private readonly UserManager<IdentityUser> userManager;
@@ -25,12 +24,14 @@ public class UserController : Controller
     
     [HttpGet]
     [Route("/admin/register")]
-    [AllowAnonymous]
     public IActionResult Register()
     {
         if (User?.Identity?.IsAuthenticated ?? false)
         {
-            return RedirectToAction("Index", "Home");
+            TempData[MessageConstant.ErrorMessage] = "You are already logged in!";
+
+            return RedirectToAction("Index", "Home", new { area = "Administration" });
+
         }
 
         var model = new RegisterViewModel();
@@ -40,7 +41,6 @@ public class UserController : Controller
 
     [HttpPost]
     [Route("/admin/register")]
-    [AllowAnonymous]
     public async Task<IActionResult> Register(RegisterViewModel model)
     {
         if (!ModelState.IsValid)
@@ -58,7 +58,10 @@ public class UserController : Controller
 
         if (result.Succeeded)
         {
-            return RedirectToAction("Login", "User");
+            TempData[MessageConstant.SuccessMessage] = "The registration was successful!";
+
+            return RedirectToAction("Login", "User", new { area = "Administration" });
+
         }
 
         foreach (var item in result.Errors)
@@ -70,13 +73,14 @@ public class UserController : Controller
     }
 
     [HttpGet]
-    [AllowAnonymous]
     [Route("/admin/login")]
     public IActionResult Login()
     {
         if (User?.Identity?.IsAuthenticated ?? false)
         {
-            return RedirectToAction("Index", "Home");
+            TempData[MessageConstant.ErrorMessage] = "You are already logged in!";
+
+            return RedirectToAction("Index", "Home", new { area = "Administration" });
         }
 
         var model = new LoginViewModel();
@@ -85,7 +89,6 @@ public class UserController : Controller
     }
 
     [HttpPost]
-    [AllowAnonymous]
     [Route("/admin/login")]
     public async Task<IActionResult> Login(LoginViewModel model)
     {
@@ -102,7 +105,9 @@ public class UserController : Controller
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Administration");
+                TempData[MessageConstant.SuccessMessage] = "Successful Login!";
+
+                return RedirectToAction("Index", "Home", new { area = "Administration" });
             }
         }
 
@@ -112,10 +117,15 @@ public class UserController : Controller
         return View(model);
     }
 
+    [Authorize]
+    [Route("/admin/logout")]
     public async Task<IActionResult> Logout()
     {
         await signInManager.SignOutAsync();
 
-        return RedirectToAction("Index", "Home");
+        TempData[MessageConstant.SuccessMessage] = "You logged out successfully!";
+
+        return RedirectToAction("Index", "Home", new { area = "Administration" });
+
     }
 }

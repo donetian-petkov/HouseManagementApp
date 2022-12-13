@@ -13,26 +13,26 @@
                             <p class="text-white-50 mb-5">Create an account</p>
 
                             <div class="form-outline form-white mb-4">
-                                <input asp-for="@Model.UserName" type="text" id="typeEmailX" class="form-control form-control-lg"/>
-                                <label asp-for="@Model.UserName"class="form-label">Username</label>
+                                <label asp-for="@Model.UserName" class="form-label">Username</label>
+                                <input asp-for="@Model.UserName" type="text" id="typeEmailX" class="form-control form-control-lg" />
                                 <span asp-validation-for="UserName" class="text-danger"></span>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                <input asp-for="@Model.Email" type="email" id="typeEmailX" class="form-control form-control-lg"/>
-                                <label asp-for="@Model.Email"class="form-label">Email</label>
+                                <label asp-for="@Model.Email" class="form-label">Email</label>
+                                <input asp-for="@Model.Email" type="email" id="typeEmailX" class="form-control form-control-lg" />
                                 <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                <input asp-for="@Model.Password" type="password" id="typePasswordX" class="form-control form-control-lg"/>
                                 <label asp-for="@Model.Password" class="form-label">Password</label>
+                                <input asp-for="@Model.Password" type="password" id="typePasswordX" class="form-control form-control-lg" />
                                 <span asp-validation-for="Password" class="text-danger"></span>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                <input asp-for="@Model.ConfirmPassword" type="password" id="typePasswordX" class="form-control form-control-lg"/>
-                                <label asp-for="@Model.ConfirmPassword" class="form-label">Password</label>
+                                <label asp-for="@Model.ConfirmPassword" class="form-label"> Confirm Password</label>
+                                <input asp-for="@Model.ConfirmPassword" type="password" id="typePasswordX" class="form-control form-control-lg" />
                                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                             </div>
 
@@ -57,5 +57,5 @@
 
 @section Scripts
 {
-    <partial name="_ValidationScriptsPartial"/>
+<partial name="_ValidationScriptsPartial" />
 }
