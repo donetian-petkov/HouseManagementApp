@@ -1,3 +1,4 @@
+using HouseManagementApp.Areas.Administration.Constants;
 using HouseManagementApp.Core.Models.Administration;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -105,7 +106,8 @@ public class UserController : Controller
             }
         }
 
-        ModelState.AddModelError("", "Invalid login");
+        TempData[MessageConstant.ErrorMessage] = "Invalid Login!";
+
 
         return View(model);
     }
