@@ -80,22 +80,38 @@ namespace HouseManagementApp.Areas.Administration.Controllers
 
         [HttpPost]
         [Route("/admin/assignRole")]
-        public async Task<IActionResult> AssignRole(IdentityUser user, IdentityRole role)
+        public async Task<IActionResult> AssignRole(AssignRoleViewModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await userManager.FindByIdAsync(model.UserId);
 
 
-            if (user == null || role == null)
+            if (user == null || model.RoleName == null)
             {
                 TempData[MessageConstant.ErrorMessage] = "Either the user or the role does not exist!";
 
                 RedirectToAction("AssignRole", "Account", new { area = "Administration" });
 
             }
+            
+            var roles = await userManager.GetRolesAsync(user);
 
+            if (roles.Any(x => x == model.RoleName))
+            {
+                TempData[MessageConstant.ErrorMessage] = "The user is already assigned to this role";
 
+                RedirectToAction("AssignRole", "Account", new { area = "Administration" });
+
+            }
+
+            
             try
             {
-                var result = await userManager.AddToRoleAsync(user, role.ToString());
+                var result = await userManager.AddToRoleAsync(user, model.RoleName);
 
                 if (result.Succeeded)
                 {

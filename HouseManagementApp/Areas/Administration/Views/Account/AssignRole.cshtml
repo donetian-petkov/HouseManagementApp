@@ -14,22 +14,22 @@
                             <p class="text-white-50 mb-5">Please choose an user and then a role to be assigned to them:</p>
 
                             <div class="form-outline form-white mb-4">
-                                <label asp-for="@Model.Users" class="form-label">Users</label>
-                                <select asp-for="@Model.Users" class="form-control">
+                                <label asp-for="@Model.UserId" class="form-label">Users</label>
+                                <select asp-for="@Model.UserId" class="form-control">
                                     @foreach (var user in Model.Users)
                                     {
-                                        <option value="@user">@user.UserName</option>
+                                        <option value="@user.Id">@user.UserName</option>
                                     }
                                 </select>
                                 <span asp-validation-for="Users" class="text-danger"></span>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                <label asp-for="@Model.Roles" class="form-label">Users</label>
-                                <select asp-for="@Model.Roles" class="form-control">
+                                <label asp-for="@Model.RoleName" class="form-label">Users</label>
+                                <select asp-for="@Model.RoleName" class="form-control">
                                     @foreach (var role in Model.Roles)
                                     {
-                                        <option value="@role">@role.Name</option>
+                                        <option value="@role.Name">@role.Name</option>
                                     }
                                 </select>
                                 <span asp-validation-for="Roles" class="text-danger"></span>
