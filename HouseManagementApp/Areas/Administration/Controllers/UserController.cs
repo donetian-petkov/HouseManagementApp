@@ -60,7 +60,9 @@ public class UserController : Controller
         {
             TempData[MessageConstant.SuccessMessage] = "The registration was successful!";
 
-            return RedirectToAction("Login", "User", new { area = "Administration" });
+            await signInManager.PasswordSignInAsync(user, model.Password, false, false);
+
+            return RedirectToAction("Index", "Home", new { area = "Administration" });
 
         }
 
