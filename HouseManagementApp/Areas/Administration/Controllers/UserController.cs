@@ -101,7 +101,7 @@ public class UserController : Controller
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Administration");
             }
         }
 

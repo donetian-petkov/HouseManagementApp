@@ -13,8 +13,8 @@
                             <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
                             <div class="form-outline form-white mb-4">
-                                <input asp-for="@Model.UserName" type="email" id="typeEmailX" class="form-control form-control-lg" />
-                                <label asp-for="@Model.UserName"class="form-label">Email</label>
+                                <input asp-for="@Model.UserName" type="text" id="typeUserNameX" class="form-control form-control-lg" />
+                                <label asp-for="@Model.UserName"class="form-label">Username</label>
                                 <span asp-validation-for="UserName" class="text-danger"></span>
                             </div>
 
@@ -34,3 +34,8 @@
         </div>
     </div>
 </section>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}
