@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+bC8jZBmQf/ULJHWH4GdbSiZJpDJMPxaEyh3hvceYx/KcOw0zkjTE+v+AS3bx0OwxFY3QM7cnQARkRqG2EpNJQ==",
+  "dgSpecHash": "56EeiD3e6k7WlLHlolady+iLNxsjEd2am1oUKRNHizZBKAfWAbL2dY1ZMvoMCeUyg+TVzycYWAquU2+4rXuVrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

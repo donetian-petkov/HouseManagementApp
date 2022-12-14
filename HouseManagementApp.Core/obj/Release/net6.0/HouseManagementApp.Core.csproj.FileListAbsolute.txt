@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\HouseManagementApp.Core.deps.json
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\HouseManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\ref\HouseManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\HouseManagementApp.Core.pdb
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\HouseManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\bin\Release\net6.0\HouseManagementApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.csproj.CopyComplete
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\ref\HouseManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Core\obj\Release\net6.0\HouseManagementApp.Core.pdb

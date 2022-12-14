@@ -5,14 +5,12 @@ import { Home } from './components/Home';
 
 import './custom.css'
 
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
+function App() {
     return (
-      <Layout>
-        <h1>Hello from react</h1>
-      </Layout>
+        <Layout>
+            <h1>Hello from react</h1>
+        </Layout>
     );
-  }
 }
+
+export default App;

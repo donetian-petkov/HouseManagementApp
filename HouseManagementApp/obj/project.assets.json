@@ -11004,11 +11004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
       "projectName": "HouseManagementApp",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp\\HouseManagementApp.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11025,8 +11025,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp.Core\\HouseManagementApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp.Core\\HouseManagementApp.Core.csproj"
+            "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp.Core\\HouseManagementApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\HouseManagementApp.Core\\HouseManagementApp.Core.csproj"
             }
           }
         }

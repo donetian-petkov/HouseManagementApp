@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\bin\Release\net6.0\HouseManagementApp.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\bin\Release\net6.0\HouseManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\bin\Release\net6.0\ref\HouseManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\bin\Release\net6.0\HouseManagementApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\ref\HouseManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp.Infrastructure\obj\Release\net6.0\HouseManagementApp.Infrastructure.pdb
