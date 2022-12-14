@@ -29,6 +29,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -62,4 +63,7 @@ app.MapControllerRoute(
 
 app.MapRazorPages();
 
+/*
+ * app.MapFallbackToFile("index.html"); ;
+*/
 app.Run();
