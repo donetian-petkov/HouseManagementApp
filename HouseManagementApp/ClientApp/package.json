@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/core": "^6.0.0",
+    "@fullcalendar/daygrid": "^6.0.0",
+    "@fullcalendar/interaction": "^6.0.0",
+    "@fullcalendar/react": "^6.0.0",
+    "@fullcalendar/resource": "^6.0.0",
+    "@fullcalendar/resource-timeline": "^6.0.0",
+    "@fullcalendar/timegrid": "^6.0.0",
     "bootstrap": "^5.2.3",
     "http-proxy-middleware": "^0.19.1",
     "jquery": "^3.5.1",
