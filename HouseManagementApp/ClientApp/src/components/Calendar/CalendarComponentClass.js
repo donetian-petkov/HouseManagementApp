@@ -25,7 +25,7 @@ export default class CalendarComponent extends React.Component {
               right: 'dayGridMonth,timeGridWeek,timeGridDay'
             }}
             initialView='dayGridMonth'
-            height = {1440}
+            height = {900}
             editable={true}
             selectable={true}
             selectMirror={true}
