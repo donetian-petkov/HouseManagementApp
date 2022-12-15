@@ -1,4 +1,4 @@
-﻿using HouseManagementApp.Infrastructure.Data.Models;
+﻿using HouseManagementApp.Infrastructure.Data.Models.Calendar;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

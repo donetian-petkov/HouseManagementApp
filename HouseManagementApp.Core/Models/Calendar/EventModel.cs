@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HouseManagementApp.Infrastructure.Data.Models
+namespace HouseManagementApp.Core.Models.Calendar
 {
-    public class Event
+    public class EventModel
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
@@ -18,12 +16,9 @@ namespace HouseManagementApp.Infrastructure.Data.Models
         public string Title { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "Date")]
         public DateTime Start { get; set; }
 
         [Required]
-        [Column(TypeName = "Date")]
         public DateTime End { get; set; }
-
     }
 }

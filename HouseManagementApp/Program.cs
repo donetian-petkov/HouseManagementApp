@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using HouseManagementApp.Infrastructure.Data;
+using HouseManagementApp.Core.Contracts;
+using HouseManagementApp.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
