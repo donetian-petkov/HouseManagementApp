@@ -9,6 +9,7 @@ namespace HouseManagementApp.Areas.Administration.Controllers
     [Area("Administration")]
     public class HomeController : Controller
     {
+        [HttpGet]
         [Route("/admin")]
         public IActionResult Index()
         {

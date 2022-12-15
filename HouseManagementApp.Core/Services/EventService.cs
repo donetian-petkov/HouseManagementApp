@@ -16,9 +16,9 @@ namespace HouseManagementApp.Core.Services
 
         private readonly IRepository repo;
 
-        public EventService(IRepository _rope)
+        public EventService(IRepository _repo)
         {
-            repo = _rope;
+            repo = _repo;
         }
         public async Task<IEnumerable<EventModel>> GetAllEvents()
         {

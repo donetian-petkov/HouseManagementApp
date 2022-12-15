@@ -119,6 +119,7 @@ public class UserController : Controller
         return View(model);
     }
 
+    [HttpPost]
     [Authorize]
     [Route("/admin/logout")]
     public async Task<IActionResult> Logout()

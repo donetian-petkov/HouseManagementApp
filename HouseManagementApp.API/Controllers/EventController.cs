@@ -17,8 +17,6 @@ namespace HouseManagementApp.API.Controllers
         }
 
         [HttpGet]
-        [Produces("application/json")]
-        [ProducesResponseType(200, StatusCode = StatusCodes.Status200OK, Type = typeof(IEnumerable<EventModel>))]
         public async Task<IActionResult> GetAllEvents()
         {
             return Ok(await eventService.GetAllEvents());

@@ -1,5 +1,8 @@
 using HouseManagementApp.Core.Contracts;
 using HouseManagementApp.Core.Services;
+using HouseManagementApp.Infrastructure.Data;
+using HouseManagementApp.Infrastructure.Data.Common;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+var connectionString = builder.Configuration["MySQLDatabase:ConnectionString"];
+
+var serverVersion = new MySqlServerVersion(new Version(5, 7, 39));
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseMySql(connectionString,serverVersion);
+});
+builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddScoped<IEventService, EventService>();
 
 var app = builder.Build();

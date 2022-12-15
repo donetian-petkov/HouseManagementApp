@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44480",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\Administrator\\Source\\Repos\\HouseManagementApp\\HouseManagementApp\\ClientApp\\",
+"WorkingDirectory": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/ClientApp/",
 "MaxTimeoutInSeconds": "120"
 }
 }
