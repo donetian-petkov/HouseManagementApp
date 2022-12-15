@@ -297,3 +297,4 @@ C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp\obj\Re
 C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp\obj\Release\net6.0\ref\HouseManagementApp.dll
 C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp\obj\Release\net6.0\HouseManagementApp.pdb
 C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp\obj\Release\net6.0\HouseManagementApp.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\HouseManagementApp\bin\Release\net6.0\libman.json
