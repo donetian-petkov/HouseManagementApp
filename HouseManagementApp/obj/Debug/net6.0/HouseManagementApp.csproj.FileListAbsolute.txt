@@ -67,7 +67,6 @@
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/Debug/net6.0/HouseManagementApp.genruntimeconfig.cache
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/Debug/net6.0/ref/HouseManagementApp.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/appsettings.Production.json
-/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/Debug/net6.0/refint/HouseManagementApp.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/MessagePack.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/MessagePack.Annotations.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -597,3 +596,4 @@ C:/Users/Administrator/Source/Repos/HouseManagementApp/HouseManagementApp/obj/De
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/libman.json
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/bin/Debug/net6.0/Microsoft.AspNetCore.SpaProxy.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/Debug/net6.0/spa.proxy.json
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/HouseManagementApp/obj/Debug/net6.0/refint/HouseManagementApp.dll

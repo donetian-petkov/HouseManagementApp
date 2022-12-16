@@ -9,7 +9,7 @@ namespace HouseManagementApp.Core.Models.Calendar
 {
     public class EventModel
     {
-        public Guid id { get; set; }
+        public String id { get; set; }
 
         [Required]
         [StringLength(100)]

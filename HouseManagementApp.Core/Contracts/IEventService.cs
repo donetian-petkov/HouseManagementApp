@@ -11,6 +11,6 @@ namespace HouseManagementApp.Core.Contracts
     {
         Task<IEnumerable<EventModel>> GetAllEvents();
 
-        Task<Guid> AddEvent (EventModel eventModel);   
+        Task<String> AddEvent (EventModel eventModel);   
     }
 }

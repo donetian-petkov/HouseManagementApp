@@ -19,11 +19,10 @@ namespace HouseManagementApp.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("HouseManagementApp.Infrastructure.Data.Models.Event", b =>
+            modelBuilder.Entity("HouseManagementApp.Infrastructure.Data.Models.Calendar.Event", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                    b.Property<string>("Id")
+                        .HasColumnType("varchar(255)");
 
                     b.Property<DateTime>("End")
                         .HasColumnType("Date");

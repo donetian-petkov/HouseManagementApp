@@ -28,19 +28,10 @@ namespace HouseManagementApp.API.Controllers
 
         [HttpPost]
         [Route("addEvent")]
-        public async Task<Guid> AddEvent([FromBody] string title, DateTime start, DateTime end, Guid id)
+        public async Task<String> AddEvent([FromBody] EventModel eventObject)
         {
 
-            var model = new EventModel()
-            {
-                id = id,
-                title = title,
-                start = start,
-                end = end,
-
-            };
-
-            return await eventService.AddEvent(model);
+            return await eventService.AddEvent(eventObject);
         }
     }
 }

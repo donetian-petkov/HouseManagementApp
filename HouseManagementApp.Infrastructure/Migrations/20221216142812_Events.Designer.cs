@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HouseManagementApp.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221215131508_Events")]
+    [Migration("20221216142812_Events")]
     partial class Events
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,11 +21,10 @@ namespace HouseManagementApp.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("HouseManagementApp.Infrastructure.Data.Models.Event", b =>
+            modelBuilder.Entity("HouseManagementApp.Infrastructure.Data.Models.Calendar.Event", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                    b.Property<string>("Id")
+                        .HasColumnType("varchar(255)");
 
                     b.Property<DateTime>("End")
                         .HasColumnType("Date");

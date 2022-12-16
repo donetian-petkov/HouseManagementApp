@@ -21,7 +21,7 @@ namespace HouseManagementApp.Core.Services
             repo = _repo;
         }
 
-        public async Task<Guid> AddEvent(EventModel eventModel)
+        public async Task<string> AddEvent(EventModel eventModel)
         {
             var eventToCreate = new Event()
             {
