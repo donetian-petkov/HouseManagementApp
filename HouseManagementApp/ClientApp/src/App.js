@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
-import { Layout } from './components/Main/Layout';
-import { Home } from './components/Main/Home';
+import { Layout } from './components/main/Layout';
 
 import './custom.css'
 

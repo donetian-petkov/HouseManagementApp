@@ -6,7 +6,7 @@ import FullCalendar from "@fullcalendar/react";
 import React, {useState} from "react";
 
 
-const CalendarComponent = () => {
+const Calendar = () => {
 
    const [events, setEvents] = useState([]);
 
@@ -78,4 +78,4 @@ const CalendarComponent = () => {
 
 }
 
-export default CalendarComponent;
+export default Calendar;

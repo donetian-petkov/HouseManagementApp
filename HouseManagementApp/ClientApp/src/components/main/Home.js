@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import CalendarComponent from '../Calendar/CalendarComponent'
+import Calendar from '../calendar/Calendar'
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
       return (
-          <CalendarComponent/>
+          <Calendar/>
     );
   }
 }
