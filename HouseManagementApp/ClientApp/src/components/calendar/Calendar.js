@@ -3,12 +3,23 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import {createEventId, INITIAL_EVENTS} from "./event-utils";
 import FullCalendar from "@fullcalendar/react";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
+import * as eventService from '../../services/eventService';
+
 
 
 const Calendar = () => {
 
    const [events, setEvents] = useState([]);
+
+   useEffect(() => {
+
+       eventService.getAllEvents()
+           .then(events => setEvents(events));
+
+   },[])
+
+
 
    const handleEvents = (events) => {
 
@@ -63,7 +74,7 @@ const Calendar = () => {
             selectMirror={true}
             dayMaxEvents={true}
             weekends={true}
-            initialEvents={INITIAL_EVENTS} // alternatively, use the `events` setting to fetch from a feed
+            initialEvents={events} // alternatively, use the `events` setting to fetch from a feed
             select={handleDateSelect}
             eventContent={renderEventContent} // custom render function
             eventClick={handleEventClick}

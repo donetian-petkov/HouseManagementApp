@@ -15,7 +15,27 @@
       "ProjectGuid": "b2c05f02-a735-4e9b-a9c4-988eeccda7dc",
       "DisplayName": "HouseManagementApp",
       "ColorIndex": 1
+    },
+    "70ba0bf1-dd13-4013-97b2-d71778ebd593": {
+      "ProjectGuid": "70ba0bf1-dd13-4013-97b2-d71778ebd593",
+      "DisplayName": "HouseManagementApp.Infrastructure",
+      "ColorIndex": 2
+    },
+    "6fcf4b1f-950e-4c8d-9f55-788078813e9b": {
+      "ProjectGuid": "6fcf4b1f-950e-4c8d-9f55-788078813e9b",
+      "DisplayName": "HouseManagementApp.Core",
+      "ColorIndex": 3
+    },
+    "742250ad-8533-465c-9521-e20f49f43437": {
+      "ProjectGuid": "742250ad-8533-465c-9521-e20f49f43437",
+      "DisplayName": "HouseManagementApp.API",
+      "ColorIndex": 4
+    },
+    "64344737-8cde-468d-b1c9-df1c79d2cbbd": {
+      "ProjectGuid": "64344737-8cde-468d-b1c9-df1c79d2cbbd",
+      "DisplayName": "HouseManagementApp.API",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 6
 }
