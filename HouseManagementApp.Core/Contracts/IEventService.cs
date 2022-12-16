@@ -10,5 +10,7 @@ namespace HouseManagementApp.Core.Contracts
     public interface IEventService
     {
         Task<IEnumerable<EventModel>> GetAllEvents();
+
+        Task<Guid> AddEvent (EventModel eventModel);   
     }
 }

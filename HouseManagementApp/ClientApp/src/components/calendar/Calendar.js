@@ -39,7 +39,7 @@ const Calendar = () => {
                 title,
                 start: selectInfo.startStr,
                 end: selectInfo.endStr,
-                allDay: selectInfo.allDay
+                AllDay: true
             })
         }
     }
@@ -57,6 +57,19 @@ const Calendar = () => {
                 <i>{eventInfo.event.title}</i>
             </>
         )
+    }
+
+    const eventAddHandler = (eventToBeCreated) => {
+
+       eventService.addEvent(eventToBeCreated["event"])
+           .then(result => {
+               console.log(result);
+           })
+           .catch((error) => {
+               console.log(error);
+           });
+
+
     }
 
     return (
@@ -79,8 +92,9 @@ const Calendar = () => {
             eventContent={renderEventContent} // custom render function
             eventClick={handleEventClick}
             eventsSet={handleEvents} // called after events are initialized/added/changed/removed
+            eventAdd={eventAddHandler}
             /* you can update a remote database when these fire:
-            eventAdd={function(){}}
+
             eventChange={function(){}}
             eventRemove={function(){}}
             */

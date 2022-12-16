@@ -9,16 +9,16 @@ namespace HouseManagementApp.Core.Models.Calendar
 {
     public class EventModel
     {
-        public int Id { get; set; }
+        public Guid id { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string Title { get; set; } = null!;
+        public string title { get; set; } = null!;
 
         [Required]
-        public DateTime Start { get; set; }
+        public DateTime start { get; set; }
 
         [Required]
-        public DateTime End { get; set; }
+        public DateTime end { get; set; }
     }
 }

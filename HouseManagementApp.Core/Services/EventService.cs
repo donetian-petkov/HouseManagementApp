@@ -20,15 +20,32 @@ namespace HouseManagementApp.Core.Services
         {
             repo = _repo;
         }
+
+        public async Task<Guid> AddEvent(EventModel eventModel)
+        {
+            var eventToCreate = new Event()
+            {
+                Id = eventModel.id,
+                Title = eventModel.title,
+                Start = eventModel.start,
+                End = eventModel.end
+            };
+
+            await repo.AddAsync(eventToCreate);
+            await repo.SaveChangesAsync();
+
+            return eventToCreate.Id;
+        }
+
         public async Task<IEnumerable<EventModel>> GetAllEvents()
         {
             return await repo.AllReadonly<Event>()
                 .Select(e => new EventModel()
                 {
-                    Id = e.Id,
-                    Title = e.Title,
-                    Start = e.Start,
-                    End = e.End
+                    id = e.Id,
+                    title = e.Title,
+                    start = e.Start,
+                    end = e.End
                 })
                 .ToListAsync();
 

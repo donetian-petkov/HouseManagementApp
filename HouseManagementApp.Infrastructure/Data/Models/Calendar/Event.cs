@@ -11,7 +11,7 @@ namespace HouseManagementApp.Infrastructure.Data.Models.Calendar
     public class Event
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required]
         [StringLength(100)]
