@@ -12,16 +12,22 @@ const Calendar = () => {
 
    const [events, setEvents] = useState([]);
 
-   useEffect(() => {
+    useEffect(() => {
 
-       eventService.getAll()
-           .then(events => setEvents(events));
+        const getEvents = async () => {
 
-   },[])
+            const eventsData = await eventService.getAll();
+            
+            setEvents(eventsData);
+            
+        }
 
+        getEvents();
+        
+    },[]);
 
-
-   const handleEvents = (events) => {
+    
+    const handleEvents = (events) => {
 
        setEvents(events);
 
@@ -88,7 +94,7 @@ const Calendar = () => {
             selectMirror={true}
             dayMaxEvents={true}
             weekends={true}
-            initialEvents={events} // alternatively, use the `events` setting to fetch from a feed
+            events={"https://localhost:7156/api/Event/getAll"}
             select={handleDateSelect}
             eventContent={renderEventContent} // custom render function
             eventClick={handleEventClick}

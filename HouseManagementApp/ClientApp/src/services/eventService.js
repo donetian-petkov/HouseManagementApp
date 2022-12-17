@@ -2,7 +2,7 @@ import * as request from "./requester";
 
 const eventAPI = 'https://localhost:7156/api/Event'
 
-export const getAll = () => request.get(`${eventAPI}/getAll`,'', {});
+export const getAll = () => request.get(`${eventAPI}/getAll`,'', {'content-type': 'application/json'});
 
 export const add = (eventToCreate) => {
     
