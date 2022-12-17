@@ -2,9 +2,9 @@ import * as request from "./requester";
 
 const eventAPI = 'https://localhost:7156/api/Event'
 
-export const getAllEvents = () => request.get(`${eventAPI}/getAllEvents`,'', {});
+export const getAll = () => request.get(`${eventAPI}/getAll`,'', {});
 
-export const addEvent = (eventToCreate) => {
+export const add = (eventToCreate) => {
     
     let jsonObject = eventToCreate.toJSON();
     
@@ -16,5 +16,7 @@ export const addEvent = (eventToCreate) => {
         
     }
 
-    return request.post(`${eventAPI}/addEvent`, object, {});
+    return request.post(`${eventAPI}/add`, object, {});
 }
+
+export const deleteById = (id) => request.del(`${eventAPI}/deleteById?eventId=${id}`);

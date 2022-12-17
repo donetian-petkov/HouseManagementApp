@@ -21,7 +21,7 @@ namespace HouseManagementApp.Core.Services
             repo = _repo;
         }
 
-        public async Task<string> AddEvent(EventModel eventModel)
+        public async Task<string> Add(EventModel eventModel)
         {
             var eventToCreate = new Event()
             {
@@ -37,7 +37,15 @@ namespace HouseManagementApp.Core.Services
             return eventToCreate.Id;
         }
 
-        public async Task<IEnumerable<EventModel>> GetAllEvents()
+        public async Task DeleteById(string eventId)
+        {
+            Console.WriteLine("Just before the deletion, " + eventId);
+            
+            await repo.DeleteAsync<Event>(eventId);
+            await repo.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<EventModel>> GetAll()
         {
             return await repo.AllReadonly<Event>()
                 .Select(e => new EventModel()

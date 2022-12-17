@@ -20,18 +20,26 @@ namespace HouseManagementApp.API.Controllers
 
 
         [HttpGet]
-        [Route("getAllEvents")]
-        public async Task<IActionResult> GetAllEvents()
+        [Route("getAll")]
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(await eventService.GetAllEvents());
+            return Ok(await eventService.GetAll());
         }
 
         [HttpPost]
-        [Route("addEvent")]
-        public async Task<String> AddEvent([FromBody] EventModel eventObject)
+        [Route("add")]
+        public async Task<String> Add([FromBody] EventModel eventObject)
         {
 
-            return await eventService.AddEvent(eventObject);
+            return await eventService.Add(eventObject);
+        }
+        
+        [HttpDelete]
+        [Route("deleteById")]
+        public async Task DeleteById([FromQuery] string eventId)
+        {
+
+            await eventService.DeleteById(eventId);
         }
     }
 }

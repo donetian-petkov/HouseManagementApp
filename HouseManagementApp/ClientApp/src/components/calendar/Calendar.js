@@ -14,7 +14,7 @@ const Calendar = () => {
 
    useEffect(() => {
 
-       eventService.getAllEvents()
+       eventService.getAll()
            .then(events => setEvents(events));
 
    },[])
@@ -44,9 +44,12 @@ const Calendar = () => {
         }
     }
 
-    const handleEventClick = (clickInfo) => {
+    const handleEventClick = async (clickInfo) => {
         if (window.confirm(`Are you sure you want to delete the event '${clickInfo.event.title}'`)) {
-            clickInfo.event.remove()
+            
+            await eventService.deleteById(clickInfo.event.toJSON().id);
+                
+            await clickInfo.event.remove()
         }
     }
 
@@ -61,15 +64,13 @@ const Calendar = () => {
 
     const eventAddHandler = (eventToBeCreated) => {
 
-       eventService.addEvent(eventToBeCreated["event"])
+       eventService.add(eventToBeCreated["event"])
            .then(result => {
                console.log(result);
            })
            .catch((error) => {
                console.log(error);
            });
-
-
     }
 
     return (
@@ -93,11 +94,6 @@ const Calendar = () => {
             eventClick={handleEventClick}
             eventsSet={handleEvents} // called after events are initialized/added/changed/removed
             eventAdd={eventAddHandler}
-            /* you can update a remote database when these fire:
-
-            eventChange={function(){}}
-            eventRemove={function(){}}
-            */
         />
     )
 
