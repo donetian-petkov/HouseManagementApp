@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\PersonalManagementApp.Core.deps.json
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\PersonalManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\ref\PersonalManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\PersonalManagementApp.Core.pdb
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\PersonalManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\bin\Debug\net6.0\PersonalManagementApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.csproj.CopyComplete
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\ref\PersonalManagementApp.Core.dll
+C:\Users\Administrator\source\repos\HouseManagementApp\PersonalManagementApp.Core\obj\Debug\net6.0\PersonalManagementApp.Core.pdb

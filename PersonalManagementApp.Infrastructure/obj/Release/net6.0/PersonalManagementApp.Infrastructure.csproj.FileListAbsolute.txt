@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\bin\Release\net6.0\PersonalManagementApp.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\bin\Release\net6.0\PersonalManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\bin\Release\net6.0\ref\PersonalManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\bin\Release\net6.0\PersonalManagementApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\ref\PersonalManagementApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.Infrastructure\obj\Release\net6.0\PersonalManagementApp.Infrastructure.pdb
