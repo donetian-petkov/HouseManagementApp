@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44480",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\Administrator\\source\\repos\\HouseManagementApp\\PersonalManagementApp\\ClientApp\\",
+"WorkingDirectory": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }
