@@ -30,7 +30,7 @@ namespace HouseManagementApp.Core.Services
                 Start = eventModel.start,
                 End = eventModel.end
             };
-
+            
             await repo.AddAsync(eventToCreate);
             await repo.SaveChangesAsync();
 
@@ -39,7 +39,6 @@ namespace HouseManagementApp.Core.Services
 
         public async Task DeleteById(string eventId)
         {
-            Console.WriteLine("Just before the deletion, " + eventId);
             
             await repo.DeleteAsync<Event>(eventId);
             await repo.SaveChangesAsync();

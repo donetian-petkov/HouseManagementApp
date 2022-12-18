@@ -45,7 +45,7 @@ const Calendar = () => {
                 title,
                 start: selectInfo.startStr,
                 end: selectInfo.endStr,
-                AllDay: true
+                
             })
         }
     }
