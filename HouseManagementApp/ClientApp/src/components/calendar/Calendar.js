@@ -1,7 +1,7 @@
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import {createEventId, INITIAL_EVENTS} from "./event-utils";
+import {createEventId} from "./event-utils";
 import FullCalendar from "@fullcalendar/react";
 import React, {useEffect, useState} from "react";
 import * as eventService from '../../services/eventService';
@@ -11,6 +11,7 @@ import * as eventService from '../../services/eventService';
 const Calendar = () => {
 
    const [events, setEvents] = useState([]);
+   const eventApi = "https://localhost:7156/api/Event";
 
     useEffect(() => {
 
@@ -94,7 +95,7 @@ const Calendar = () => {
             selectMirror={true}
             dayMaxEvents={true}
             weekends={true}
-            events={"https://localhost:7156/api/Event/getAll"}
+            events={`${eventApi}/getAll`}
             select={handleDateSelect}
             eventContent={renderEventContent} // custom render function
             eventClick={handleEventClick}
