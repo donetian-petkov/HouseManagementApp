@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NSa8odQIzePPIBlXUqFVHMFk/FDz5SdZ+Rvmo5KkyjE=",
+  "Hash": "EaY7seYC9zEP/5Ig6cTa/NGQTJXW/ETi4Ms6QRNsKJs=",
   "Source": "PersonalManagementApp.API",
   "BasePath": "_content/PersonalManagementApp.API",
   "Mode": "Default",
@@ -28,6 +28,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.API\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PersonalManagementApp.API.styles.css",
+      "SourceId": "PersonalManagementApp.API",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.API\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/PersonalManagementApp.API",
+      "RelativePath": "PersonalManagementApp.API.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.API\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PersonalManagementApp.API.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PersonalManagementApp.bundle.scp.css",
+      "SourceId": "PersonalManagementApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PersonalManagementApp",
+      "RelativePath": "PersonalManagementApp.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PersonalManagementApp.bundle.scp.css"
+    },
     {
       "Identity": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp\\wwwroot\\css\\site.css",
       "SourceId": "PersonalManagementApp",

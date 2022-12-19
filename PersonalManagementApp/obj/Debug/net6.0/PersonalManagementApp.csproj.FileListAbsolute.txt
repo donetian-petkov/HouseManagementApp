@@ -598,3 +598,5 @@ C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\ref\PersonalManagementApp.dll
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.pdb
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\scopedcss\projectbundle\PersonalManagementApp.bundle.scp.css

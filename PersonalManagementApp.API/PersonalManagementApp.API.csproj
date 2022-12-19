@@ -22,4 +22,8 @@
     <ProjectReference Include="..\PersonalManagementApp\PersonalManagementApp.csproj" />
   </ItemGroup>
 
+	<PropertyGroup>
+		<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+	</PropertyGroup>
+
 </Project>

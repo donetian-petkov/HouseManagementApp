@@ -14,6 +14,10 @@
         <UserSecretsId>aspnet-PersonalManagementApp-59BC4F13-0284-4E4B-BD2E-2B6E6E2D6EB7</UserSecretsId>
     </PropertyGroup>
 
+	<PropertyGroup>
+		<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+	</PropertyGroup>
+
     <ItemGroup>
         <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
     </ItemGroup>

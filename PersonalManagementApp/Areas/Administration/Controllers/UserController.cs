@@ -23,16 +23,10 @@ public class UserController : Controller
     }
     
     [HttpGet]
-    [Route("/admin/register")]
-    public IActionResult Register()
+    [Authorize(Roles = "Administrator")]
+    [Route("/admin/createUser")]
+    public IActionResult CreateUser()
     {
-        if (User?.Identity?.IsAuthenticated ?? false)
-        {
-            TempData[MessageConstant.ErrorMessage] = "You are already logged in!";
-
-            return RedirectToAction("Index", "Home", new { area = "Administration" });
-
-        }
 
         var model = new RegisterViewModel();
 
@@ -40,8 +34,9 @@ public class UserController : Controller
     }
 
     [HttpPost]
-    [Route("/admin/register")]
-    public async Task<IActionResult> Register(RegisterViewModel model)
+    [Authorize(Roles = "Administrator")]
+    [Route("/admin/createUser")]
+    public async Task<IActionResult> CreateUser(RegisterViewModel model)
     {
         if (!ModelState.IsValid)
         {

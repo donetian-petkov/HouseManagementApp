@@ -24,6 +24,7 @@ namespace PersonalManagementApp.Areas.Administration.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "Administrator")]
         [Route("/admin/createRole")]
         public IActionResult CreateRole()
         {
@@ -34,6 +35,7 @@ namespace PersonalManagementApp.Areas.Administration.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         [Route("/admin/createRole")]
         public async Task<IActionResult> CreateRole(CreateRoleViewModel model)
         {
@@ -61,6 +63,7 @@ namespace PersonalManagementApp.Areas.Administration.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "Administrator")]
         [Route("/admin/assignRole")]
         public IActionResult AssignRole()
         {
@@ -79,6 +82,7 @@ namespace PersonalManagementApp.Areas.Administration.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         [Route("/admin/assignRole")]
         public async Task<IActionResult> AssignRole(AssignRoleViewModel model)
         {
