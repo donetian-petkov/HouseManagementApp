@@ -15,6 +15,7 @@ function NavBar() {
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="calendar">Calendar</Nav.Link>
                         <Nav.Link href="todolist">ToDoList</Nav.Link>
+                        <Nav.Link href="reminder">Reminders</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

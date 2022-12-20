@@ -7,6 +7,7 @@ import NavBar from "./components/main/NavBar";
 import Home from "./components/main/Home";
 import Calendar from "./components/calendar/Calendar";
 import ToDoListComponent from "./components/todolist/ToDoListComponent";
+import Reminder from "./components/reminder/Reminder";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path='/' exact element={<Home/>} />
                 <Route path='/calendar' element={<Calendar/>} />
                 <Route path='/todolist' element={<ToDoListComponent/>} />
+                <Route path='/reminder' element={<Reminder/>} />
                 <Route path="*" element={<Home/>} />
             </Routes>
         </>

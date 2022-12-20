@@ -1,35 +1,96 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.CoreTests\\PersonalManagementApp.CoreTests.csproj": {}
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.CoreTests/PersonalManagementApp.CoreTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.CoreTests\\PersonalManagementApp.CoreTests.csproj": {
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/PersonalManagementApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.CoreTests\\PersonalManagementApp.CoreTests.csproj",
-        "projectName": "PersonalManagementApp.CoreTests",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.CoreTests\\PersonalManagementApp.CoreTests.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.CoreTests\\obj\\",
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/PersonalManagementApp.Core.csproj",
+        "projectName": "PersonalManagementApp.Core",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/PersonalManagementApp.Core.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\PersonalManagementApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\PersonalManagementApp.Core.csproj"
+              "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/PersonalManagementApp.Infrastructure.csproj": {
+                "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/PersonalManagementApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.48.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.CoreTests/PersonalManagementApp.CoreTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.CoreTests/PersonalManagementApp.CoreTests.csproj",
+        "projectName": "PersonalManagementApp.CoreTests",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.CoreTests/PersonalManagementApp.CoreTests.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.CoreTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/PersonalManagementApp.Core.csproj": {
+                "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/PersonalManagementApp.Core.csproj"
               }
             }
           }
@@ -67,7 +128,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,92 +138,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\PersonalManagementApp.Core.csproj": {
+    "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/PersonalManagementApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\PersonalManagementApp.Core.csproj",
-        "projectName": "PersonalManagementApp.Core",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\PersonalManagementApp.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\PersonalManagementApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\PersonalManagementApp.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Graph": {
-              "target": "Package",
-              "version": "[4.48.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\PersonalManagementApp.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\PersonalManagementApp.Infrastructure.csproj",
+        "projectUniqueName": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/PersonalManagementApp.Infrastructure.csproj",
         "projectName": "PersonalManagementApp.Infrastructure",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\PersonalManagementApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\PersonalManagementApp\\PersonalManagementApp.Infrastructure\\obj\\",
+        "projectPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/PersonalManagementApp.Infrastructure.csproj",
+        "packagesPath": "/Users/donetianpetkov/.nuget/packages/",
+        "outputPath": "/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/donetianpetkov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -203,7 +199,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -212,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/donetianpetkov/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
