@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.React
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.API", "PersonalManagementApp.API\PersonalManagementApp.API.csproj", "{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalManagementApp.CoreTests", "PersonalManagementApp.CoreTests\PersonalManagementApp.CoreTests.csproj", "{ED7F597F-0006-43F4-9656-6A84A7E1615C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7F597F-0006-43F4-9656-6A84A7E1615C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7F597F-0006-43F4-9656-6A84A7E1615C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7F597F-0006-43F4-9656-6A84A7E1615C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7F597F-0006-43F4-9656-6A84A7E1615C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

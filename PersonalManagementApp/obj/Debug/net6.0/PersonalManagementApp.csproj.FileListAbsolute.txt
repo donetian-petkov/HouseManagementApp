@@ -586,7 +586,6 @@ C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.AssemblyInfoInputs.cache
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.RazorAssemblyInfo.cache
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp\obj\Debug\net6.0\PersonalManagementApp.RazorAssemblyInfo.cs

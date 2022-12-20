@@ -34,6 +34,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddScoped<ITodoListService, TodoListService>();
 
 var app = builder.Build();
 

@@ -620,7 +620,6 @@ C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\PersonalManagementApp.API.AssemblyInfoInputs.cache
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\PersonalManagementApp.API.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\PersonalManagementApp.API.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\PersonalManagementApp.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\PersonalManagementApp.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Administrator\source\repos\PersonalManagementApp\PersonalManagementApp.API\obj\Debug\net6.0\staticwebassets.development.json

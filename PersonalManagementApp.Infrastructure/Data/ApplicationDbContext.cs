@@ -1,6 +1,7 @@
 ﻿using PersonalManagementApp.Infrastructure.Data.Models.Calendar;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PersonalManagementApp.Infrastructure.Data.Models.TodoList;
 
 namespace PersonalManagementApp.Infrastructure.Data;
 
@@ -12,4 +13,5 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
     public DbSet<Event> Events { get; set; }
+    public DbSet<Todo> Todos { get; set; }
 }

@@ -11,6 +11,7 @@ import Header from './Header';
 import TodoInput from './TodoInput.js';
 import TodoList from './TodoList.js';
 import TodoFilters from './TodoFilters.js';
+import * as todoListService from '../../services/todoListService'
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos';
 
@@ -36,6 +37,15 @@ function ToDoListComponent() {
             setTodos(storedTodos);
             setFilter('all');
             setFilteredTodos(storedTodos);
+        } else {
+            const getTodos = async () => {
+
+                const todoData = await todoListService.getAll();
+
+                setTodos(todoData);
+            }
+
+            getTodos();
         }
     }, [])
 
@@ -53,12 +63,23 @@ function ToDoListComponent() {
 
     // ADD TODO
     function handleAddTodo() {
-        const todoName = newTodoInput.current.value;
-        if (todoName === "") {
+        const title = newTodoInput.current.value;
+        if (title === "") {
             return;
         }
-        setTodos([...todos, { id: uuidv4(), todoName: todoName, complete: false }]);
-        newTodoInput.current.value = null;
+
+        let todoToAdd = { id: uuidv4(), title: title, complete: false };
+
+        todoListService.add(todoToAdd)
+            .then(result => {
+                console.log(result);
+                setTodos([...todos, todoToAdd]);
+                newTodoInput.current.value = null;
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+
     }
 
     // TOGGLE TODO COMPLETE/NOT COMPLETE
@@ -66,19 +87,42 @@ function ToDoListComponent() {
         const newTodos = [...todos];
         const selectedTask = todos.find(todo => todo.id === id);
         selectedTask.complete = !selectedTask.complete;
-        setTodos(newTodos)
+        todoListService.edit(selectedTask)
+            .then(result => {
+                console.log(result);
+                setTodos(newTodos)
+            })
+            .catch(error => {
+            console.log(error);
+        });
     }
 
     // CLEAR ALL TODOS MARKED COMPLETE
     function handleClear() {
         const remainingTodos = todos.filter(todo => !todo.complete);
-        setTodos(remainingTodos);
+
+        todoListService.setNewTodos(remainingTodos)
+            .then(result => {
+                console.log(result);
+                setTodos(remainingTodos);
+            })
+            .catch(error => {
+                console.log(error);
+            });
     }
 
     // CLEAR TODO WHEN X CLICKED
     function deleteTodo(id) {
         const remainingTodos = todos.filter(todo => todo.id !== id);
-        setTodos(remainingTodos);
+
+        todoListService.deleteById(id)
+            .then(result => {
+                console.log(result);
+                setTodos(remainingTodos);
+            })
+            .catch(error => {
+                console.log(error);
+            });
     }
 
     // COUNT ANY UNCOMPLETED TODOS
