@@ -31,6 +31,6 @@ C:/Users/Administrator/source/repos/PersonalManagementApp/PersonalManagementApp.
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/PersonalManagementApp.Infrastructure.AssemblyInfo.cs
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/PersonalManagementApp.Infrastructure.csproj.CoreCompileInputs.cache
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/PersonalManagementApp.Infrastructure.dll
-/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/refint/PersonalManagementApp.Infrastructure.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/PersonalManagementApp.Infrastructure.pdb
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/obj/Debug/net6.0/ref/PersonalManagementApp.Infrastructure.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Infrastructure/bin/Debug/net6.0/ref/PersonalManagementApp.Infrastructure.dll

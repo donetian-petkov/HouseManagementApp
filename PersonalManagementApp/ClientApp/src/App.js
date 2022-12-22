@@ -8,6 +8,7 @@ import Home from "./components/main/Home";
 import Calendar from "./components/calendar/Calendar";
 import ToDoListComponent from "./components/todolist/ToDoListComponent";
 import Reminder from "./components/reminder/Reminder";
+import Notes from "./components/note/Notes";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/calendar' element={<Calendar/>} />
                 <Route path='/todolist' element={<ToDoListComponent/>} />
                 <Route path='/reminder' element={<Reminder/>} />
+                <Route path='/notes' element={<Notes/>} />
                 <Route path="*" element={<Home/>} />
             </Routes>
         </>

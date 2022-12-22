@@ -11,7 +11,7 @@
 		<DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
 		<SpaProxyServerUrl>https://localhost:44480</SpaProxyServerUrl>
 		<SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
-        <UserSecretsId>aspnet-PersonalManagementApp-59BC4F13-0284-4E4B-BD2E-2B6E6E2D6EB7</UserSecretsId>
+        <UserSecretsId>aspnet-HouseManagementApp-59BC4F13-0284-4E4B-BD2E-2B6E6E2D6EB7</UserSecretsId>
     </PropertyGroup>
 
 	<PropertyGroup>

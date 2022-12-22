@@ -40,6 +40,6 @@ C:/Users/Administrator/source/repos/PersonalManagementApp/PersonalManagementApp.
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/PersonalManagementApp.Core.csproj.CoreCompileInputs.cache
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/PersonalManagementApp.Core.csproj.CopyComplete
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/PersonalManagementApp.Core.dll
-/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/refint/PersonalManagementApp.Core.dll
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/PersonalManagementApp.Core.pdb
 /Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/obj/Debug/net6.0/ref/PersonalManagementApp.Core.dll
+/Users/donetianpetkov/Documents/GitHub/HouseManagementApp/PersonalManagementApp.Core/bin/Debug/net6.0/ref/PersonalManagementApp.Core.dll

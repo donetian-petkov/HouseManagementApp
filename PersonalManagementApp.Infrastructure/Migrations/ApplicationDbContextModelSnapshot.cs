@@ -236,6 +236,29 @@ namespace PersonalManagementApp.Infrastructure.Migrations
                     b.ToTable("Events");
                 });
 
+            modelBuilder.Entity("PersonalManagementApp.Infrastructure.Data.Models.Notes.Note", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<bool>("Favourited")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Notes");
+                });
+
             modelBuilder.Entity("PersonalManagementApp.Infrastructure.Data.Models.TodoList.Todo", b =>
                 {
                     b.Property<string>("Id")

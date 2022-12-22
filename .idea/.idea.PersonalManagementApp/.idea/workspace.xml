@@ -24,6 +24,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PersonalManagementApp/ClientApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9645d321fe8d42a1118ffc62492ad850e891b8ff24bfa6d49533d2e0e83c6947/Queryable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -144,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671460795704</updated>
-      <workItem from="1671460822639" duration="7884000" />
+      <workItem from="1671460822639" duration="24795000" />
     </task>
     <servers />
   </component>
