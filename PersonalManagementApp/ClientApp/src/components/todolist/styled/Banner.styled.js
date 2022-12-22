@@ -7,6 +7,7 @@ export const StyledBanner = styled.div`
         top: 0;
         height: 15rem;
         width: 100vw;
+        min-height: 100vh;
         background: url(${({theme}) => theme.bannerDesktop});
         background-repeat: no-repeat;
         background-position: center;

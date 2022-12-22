@@ -15,6 +15,7 @@ import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 import Switch from "@mui/material/Switch";
 import { ThemeProvider, createTheme } from "@mui/material";
+/*import "./style/app.scss";*/
 
 const Notes = () => {
     const [notes, setNotes] = useState([]);
@@ -29,28 +30,32 @@ const Notes = () => {
     }, []);
 
     const onSubmit = (newNote) => {
+        console.log(newNote);
         setFilteredNotes([newNote, ...notes]);
         setNotes([newNote, ...notes]);
         setIsModalOpen(false);
         setIsSuccess(true);
     };
 
-    const onDelete = (deletedNote) => {
-        const newList = notes.filter((item) => item._id !== deletedNote._id);
+    const onDelete = (deletedNoteId) => {
+        const newList = notes.filter((item) => item.id !== deletedNoteId);
         setNotes(newList);
         setFilteredNotes(newList);
     };
 
     const fetchMyNotes = async () => {
         const response = await getMyNotes();
-        const data = await response.data;
-        setNotes(data);
-        setFilteredNotes(data);
+        /*const data = await response.data;*/
+        setNotes(response);
+        if (response) {
+            setFilteredNotes(response);
+        }
+
     };
 
     const filterOnClick = (e) => {
         if (e.target.checked) {
-            return setFilteredNotes(notes.filter((item) => item.favorited));
+            return setFilteredNotes(notes.filter((item) => item.favourited));
         }
         setFilteredNotes(notes);
     };
@@ -77,11 +82,11 @@ const Notes = () => {
                     md={{my: 3}}
                     sx={{fontSize: "40px", my: 2, mr: "50px"}}
                 >
-                    Your Sticky Notes
+                    Your Notes
                 </Typography>
                 <Box sx={{mb: 3}}>
                     <Typography variant="subtitle1" sx={{display: "inline"}}>
-                        Favorites Only
+                        Favourites Only
                     </Typography>
                     <Switch
                         onChange={filterOnClick}

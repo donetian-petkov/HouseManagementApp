@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using PersonalManagementApp.Core.Contracts;
 using PersonalManagementApp.Core.Models.Notes;
 using PersonalManagementApp.Core.Models.TodoList;
+using PersonalManagementApp.Infrastructure.Data.Models.Notes;
 
 namespace PersonalManagementApp.API.Controllers
 {
@@ -31,7 +32,7 @@ namespace PersonalManagementApp.API.Controllers
 
         [HttpPost]
         [Route("add")]
-        public async Task<String> Add([FromBody] NoteModel noteObject)
+        public async Task<Note> Add([FromBody] NoteAddModel noteObject)
         {
 
             return await noteService.Add(noteObject);
@@ -48,7 +49,7 @@ namespace PersonalManagementApp.API.Controllers
 
         [HttpPatch]
         [Route("update")]
-        public async Task<String> Update([FromBody] NoteModel noteObject)
+        public async Task<Note> Update([FromBody] NoteUpdateModel noteObject)
         {
 
             return await noteService.Update(noteObject);

@@ -28,19 +28,20 @@ public class NoteService : INoteService
             .ToListAsync();
     }
 
-    public async Task<string> Add(NoteModel noteModel)
+    public async Task<Note> Add(NoteAddModel noteModel)
     {
         var noteToCreate = new Note()
         {
-            Id = noteModel.id,
+            Id = Guid.NewGuid().ToString(),
             Title = noteModel.title,
+            Content = noteModel.content,
             Favourited = noteModel.favourited,
         };
 
         await repo.AddAsync(noteToCreate);
         await repo.SaveChangesAsync();
 
-        return noteToCreate.Id;
+        return noteToCreate;
     }
 
     public async Task<string> Edit(NoteModel noteModel)
@@ -51,14 +52,12 @@ public class NoteService : INoteService
         
         noteToEdit.Content = noteModel.content;
 
-        noteToEdit.Favourited = noteModel.favourited;
-
         await repo.SaveChangesAsync();
 
         return noteToEdit.Id;
     }
 
-    public async Task<string> Update(NoteModel noteModel)
+    public async Task<Note> Update(NoteUpdateModel noteModel)
     {
         var noteToEdit = await repo.GetByIdAsync<Note>(noteModel.id);
 
@@ -66,12 +65,13 @@ public class NoteService : INoteService
         
         await repo.SaveChangesAsync();
 
-        return noteToEdit.Id;
+        return noteToEdit;
     }
 
     public async Task DeleteById(string noteId)
     {
         await repo.DeleteAsync<Note>(noteId);
         await repo.SaveChangesAsync();
+
     }
 }

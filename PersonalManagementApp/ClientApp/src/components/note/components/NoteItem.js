@@ -25,34 +25,35 @@ export default function NoteItem({ note, onDelete, onUpdate }) {
   const [noteContent, setNoteContent] = useState(note.content);
   const [menuOpened, setMenuOpened] = useState(false);
   const [anchor, setAnchor] = useState(null);
-  const [isLiked, setIsLiked] = useState(note.favorited);
+  const [isLiked, setIsLiked] = useState(note.favourited);
   const [favoriteButtonDisabled, setFavoriteButtonDisabled] = useState(false);
 
   useEffect(() => {
+    console.log(note.favourited);
     setNoteTitle(note.title);
     setNoteContent(note.content);
-    setIsLiked(note.favorited);
+    setIsLiked(note.favourited);
   }, [note]);
 
   const deleteNoteOnClick = async (id) => {
     setButtonDisabled(true);
     const response = await deleteNote(id);
-    const data = await response.data;
+    /*const data = await response.data;*/
     onUpdate();
     setButtonDisabled(false);
-    const deletedNote = data.data;
-    onDelete(deletedNote);
+    onDelete(id);
     setMenuOpened(false);
   };
 
   const upddateNoteFavorite = async () => {
     setFavoriteButtonDisabled(true);
-    const response = await updateFavorited(note._id, !isLiked);
-    const data = await response.data;
+    console.log(!isLiked);
+    const response = await updateFavorited(note.id, !isLiked);
+    /*const data = await response.data;*/
     onUpdate();
 
-    if (data.success) {
-      const currentState = data.note.favorited;
+    if (response.id) {
+      const currentState = response.favourited;
       setIsLiked(currentState);
     }
     setFavoriteButtonDisabled(false);
@@ -64,7 +65,7 @@ export default function NoteItem({ note, onDelete, onUpdate }) {
       title: noteTitle,
       content: noteContent,
     };
-    await editNote(note._id, noteInfomation);
+    await editNote(note.id, noteInfomation);
     setButtonDisabled(false);
     setIsEdit(!setIsEdit);
   };
@@ -116,7 +117,7 @@ export default function NoteItem({ note, onDelete, onUpdate }) {
               >
                 <Edit sx={{ mr: 2 }} /> Edit
               </MenuItem>
-              <MenuItem onClick={() => deleteNoteOnClick(note._id)}>
+              <MenuItem onClick={() => deleteNoteOnClick(note.id)}>
                 <Delete sx={{ mr: 2 }} /> Delete
               </MenuItem>
             </Menu>
