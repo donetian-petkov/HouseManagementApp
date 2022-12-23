@@ -1,7 +1,7 @@
 
 ## Description
 
-The web portal is used for the management of a person's time through calendar, to-do list, reminders and shopping list. 
+The web portal is used for the management of a person's time through calendar, to-do list, reminders and notes. 
 
 ## Table of Contents
 
