@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.Core", "PersonalManagementApp.Core\PersonalManagementApp.Core.csproj", "{6FCF4B1F-950E-4C8D-9F55-788078813E9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.React", "PersonalManagementApp.React\PersonalManagementApp.React.csproj", "{74D6F49D-FF5F-436E-9B87-43D98A75BF7F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagementApp.API", "PersonalManagementApp.API\PersonalManagementApp.API.csproj", "{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalManagementApp.CoreTests", "PersonalManagementApp.CoreTests\PersonalManagementApp.CoreTests.csproj", "{ED7F597F-0006-43F4-9656-6A84A7E1615C}"
@@ -33,10 +31,6 @@ Global
 		{6FCF4B1F-950E-4C8D-9F55-788078813E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FCF4B1F-950E-4C8D-9F55-788078813E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FCF4B1F-950E-4C8D-9F55-788078813E9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74D6F49D-FF5F-436E-9B87-43D98A75BF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74D6F49D-FF5F-436E-9B87-43D98A75BF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74D6F49D-FF5F-436E-9B87-43D98A75BF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74D6F49D-FF5F-436E-9B87-43D98A75BF7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64344737-8CDE-468D-B1C9-DF1C79D2CBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
