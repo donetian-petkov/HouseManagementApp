@@ -16,18 +16,21 @@ namespace PersonalManagementApp.API.Controllers
     {
         private readonly IUserService userService;
         private readonly UserManager<IdentityUser> userManager;
+        private readonly SignInManager<IdentityUser> signInManager;
 
         public UserController(
             IUserService _userService, 
-            UserManager<IdentityUser> _userManager
+            UserManager<IdentityUser> _userManager,
+            SignInManager<IdentityUser> _signInManager
         )
         {
             userService = _userService;
             userManager = _userManager;
+            signInManager = _signInManager;
         } 
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginUserBindingModel loginUser)
+        public async Task<IActionResult> Login([FromBody] LoginUserBindingModel loginUser)
         {
             var user = userService.Authenticate(loginUser.Username, loginUser.Password);
 
@@ -36,8 +39,17 @@ namespace PersonalManagementApp.API.Controllers
                 return BadRequest(new { message = "Username or password is incorrect." });
             }
             var tokenString = userService.GenerateJSONWebToken(user);
-            
-            return Ok(new { token = tokenString });
+
+            var result = await signInManager.PasswordSignInAsync(user, loginUser.Password, true, false);
+
+            if (result.Succeeded)
+            {
+                Console.WriteLine("Success!");
+                return Ok(new { token = tokenString });
+
+            }
+
+            return Unauthorized();
         }
 
 

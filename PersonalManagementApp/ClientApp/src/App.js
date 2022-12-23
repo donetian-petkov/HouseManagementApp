@@ -41,9 +41,9 @@ function App() {
 
     };
     
-    const getIsAdmin = (userData) => {
+    const getIsAdmin = () => {
         
-        return Object.keys(isAdmin);
+        return isAdmin;
     }
 
     return (

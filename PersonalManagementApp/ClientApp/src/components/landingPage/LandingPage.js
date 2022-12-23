@@ -15,7 +15,7 @@ const LandingPage = () => {
                             <div className="hero-inner">
                                 <div className="hero-copy">
                                     <h1 className="hero-title mt-0">Personal Management App</h1>
-                                    <p className="hero-paragraph">These are the tools for your managing your time and
+                                    <p className="hero-paragraph">These are the tools for managing your time and
                                         schedule</p>
                                 </div>
                             </div>
