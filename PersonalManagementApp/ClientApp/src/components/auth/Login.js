@@ -13,12 +13,7 @@ export const Login = ({
         <form className="Auth-form" onSubmit={submitHandler}>
             <div className="Auth-form-content">
                 <h3 className="Auth-form-title">Login</h3>
-                <div className="text-center">
-                    Not registered yet?{" "}
-                    <span className="link-primary" onClick={changeAuthMode}>
-                Sign Up
-              </span>
-                </div>
+               
                 <div className="form-group mt-3">
                     <label>Username</label>
                     <input
