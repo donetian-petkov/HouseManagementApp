@@ -9,4 +9,6 @@ public interface IUserService
     public string GenerateJSONWebToken(IdentityUser user);
 
     public Task<bool> Logout(string username);
+
+    public Task<bool> IsAdmin(string username);
 }

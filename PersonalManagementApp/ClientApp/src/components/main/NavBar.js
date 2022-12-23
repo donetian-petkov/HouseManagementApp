@@ -8,6 +8,7 @@ import {useContext} from "react";
 function NavBar() {
 
     const {getIsLoggedIn} = useContext(UserContext);
+    const {getIsAdmin} = useContext(UserContext);
 
 
     return (
@@ -26,6 +27,11 @@ function NavBar() {
                                     <Nav.Link href="reminder">Reminders</Nav.Link>
                                     <Nav.Link href="notes">Notes</Nav.Link>
                                   </div>
+                                : ''
+                        }
+                        {
+                            getIsLoggedIn() && getIsAdmin()
+                                ? <li><Nav.Link href="https://localhost:7244/admin" to={{pathname: "https://localhost:7244/admin"}} target="_blank">Admin Area</Nav.Link></li>
                                 : ''
                         }
                         {

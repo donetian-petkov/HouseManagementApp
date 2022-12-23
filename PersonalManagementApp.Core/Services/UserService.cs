@@ -19,7 +19,7 @@ public class UserService : IUserService
 
     public UserService(ApplicationDbContext _context,
         UserManager<IdentityUser> _userManager,
-        IConfiguration _configuration )
+        IConfiguration _configuration)
     {
         context = _context;
         userManager = _userManager;
@@ -69,5 +69,12 @@ public class UserService : IUserService
         await userManager.RemoveAuthenticationTokenAsync(await user, "JWT", "JWT Token");
 
         return true;
+    }
+
+    public async Task<bool> IsAdmin(string username)
+    {
+        var user = await userManager.FindByNameAsync(username);
+        
+        return await userManager.IsInRoleAsync(user, "Administrator");
     }
 }

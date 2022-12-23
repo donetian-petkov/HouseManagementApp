@@ -11,13 +11,16 @@ export const login = async (username, password) => {
             Password: password
         }
       
-        let token = await request.post(`${userAPI}/login`, data, {'content-type': 'application/json'});
+        const token = await request.post(`${userAPI}/login`, data, {'content-type': 'application/json'});
+        
+        const isAdminData = await isAdmin(username);
         
         if (token) {
 
             return {
                 Username: data.Username,
-                Token: token
+                Token: token,
+                IsAdmin: isAdminData
             };
         }
         
@@ -31,8 +34,6 @@ export const login = async (username, password) => {
 
 export const logout = async (userName) => {
     try {
-        console.log(userName);
-        
         const data = {
             username: userName
         }
@@ -44,5 +45,18 @@ export const logout = async (userName) => {
     }
 };
 
+export const isAdmin = async (userName) => {
+    try {
+        const data = {
+            username: userName
+        }
+        
+        return await request.post(`${userAPI}/isAdmin`, data, {'content-type': 'application/json'});
+
+    } catch (error) {
+        console.log(error);
+        return false;
+    }
+};
 
 

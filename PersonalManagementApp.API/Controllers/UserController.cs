@@ -46,5 +46,12 @@ namespace PersonalManagementApp.API.Controllers
         {
             return await userService.Logout(logoutModel.username);
         }
+        
+        [HttpPost("isAdmin")]
+        public async Task<bool> IsAdmin([FromBody] IsAdminBindingModel isAdminModel)
+        {
+            return await userService.IsAdmin(isAdminModel.username);
+        }
+        
     }
 }

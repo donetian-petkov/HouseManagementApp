@@ -20,12 +20,13 @@ function App() {
 
     const [auth, setAuth] = useLocalStorage('auth', {});
     const [username, setUsername] = useLocalStorage('username', '');
+    const [isAdmin, setIsAdmin] = useLocalStorage('isAdmin', false);
 
 
     const userLogin = (userData) => {
-        console.log(userData.Username);
         setAuth(userData.Token);
-        setUsername(userData.Username)
+        setUsername(userData.Username);
+        setIsAdmin(userData.IsAdmin);
     };
 
     const userLogout = () => {
@@ -39,9 +40,14 @@ function App() {
         return Object.keys(auth).length !== 0;
 
     };
+    
+    const getIsAdmin = (userData) => {
+        
+        return Object.keys(isAdmin);
+    }
 
     return (
-        <UserContext.Provider value={{user: username, userLogin, userLogout, getIsLoggedIn}}>
+        <UserContext.Provider value={{user: username, admin: isAdmin, userLogin, userLogout, getIsLoggedIn, getIsAdmin}}>
             <NavBar/>
             <Routes>
                 <Route path='/' exact element={<Home/>}/>
